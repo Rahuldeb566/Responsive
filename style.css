@@ -1,0 +1,184 @@
+body{
+    font-family: sriracha;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+.highlight{
+    color:rgb(235, 118, 10);
+}
+
+.half{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.half img{
+    width: 100%;
+}
+
+.top{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+section{
+    height: 450px;
+    padding-bottom: 100px;
+}
+
+a{
+        color: cornsilk;
+        font-weight: 800;
+        text-decoration: none;
+        background-image: linear-gradient(45deg, lightsalmon, tomato);    
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 18px;
+}
+
+
+#a1{
+    color: cornsilk;
+    font-weight: 700;
+    text-decoration: none;
+    background-image: linear-gradient(45deg, rgb(15, 214, 114), rgb(25, 154, 214));    
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.middle{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 350px;
+    background-color: white;
+}
+
+.experience{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, orange, tomato);
+    border-image-slice: 1;
+    border-radius: 10px;
+}
+
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(360deg, rgb(26, 179, 226), rgb(9, 117, 206));
+    border-image-slice: 1;
+    border-radius: 10px;
+}
+
+#center{
+    text-align: center;
+}
+
+@media screen and (max-width: 600px){
+    .half{
+        
+        width: 40%;
+        float: left;
+        flex: auto;
+        font-size: small;
+    }
+    .half h1{
+        font-size: large;
+    }
+
+    .half h2{
+        font-size: larger;
+    }
+
+    .half h3{
+        font-size: medium;
+    }
+
+    .half p{
+        font-size: small;
+    }
+
+    .half a{
+        font-size: small;
+    }
+
+    #a1{
+        font-size: small;
+    }
+}
+
+
+
+@media screen and (max-width: 600px){
+    .single-experience{
+        margin-bottom: 30px;
+        height: 150px;
+        width: auto;
+        overflow: auto;
+    }
+}
+
+@media screen and (max-width: 950px){
+    .single-experience{
+        margin-bottom: 30px;
+        height: 250px;
+        width: auto;
+        overflow: auto;
+        flex: auto;
+    }
+
+    .experience h2{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 950px){
+    .half{
+        
+        float: left;
+        flex: auto;
+        font-size: medium;
+    }
+    .half h1{
+        font-size: 35px;
+    }
+
+    .half h2{
+        font-size: 25px;
+    }
+
+    .half h3{
+        font-size: 15px;
+    }
+
+    .half p{
+        font-size: 13px;
+    }
+
+    .half a{
+        font-size: 13px;
+    }
+
+    #a1{
+        font-size: 13px;
+    }
+}
